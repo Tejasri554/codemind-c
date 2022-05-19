@@ -10,7 +10,7 @@ int main()
         p=p*r;
         n=n/10;
     }
-    if (sum==p)
+    if(sum==p)
     {
         printf("Spy Number");
     }
