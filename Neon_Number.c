@@ -6,9 +6,9 @@ int main()
     sq=n*n;
     while(sq!=0)
     {
-       r=sq%10;
-       sum=sum+r;
-       sq=sq/10;
+        r=sq%10;
+        sum=sum+r;
+        sq=sq/10;
     }
     if(sum==n)
     {
@@ -18,6 +18,4 @@ int main()
     {
         printf("Not Neon Number");
     }
-    
-    
 }
